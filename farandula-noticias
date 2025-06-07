@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias de Farándula</title>
+  <style>
+    body {
+      background-color: #f3f4f6;
+      color: #1f2937;
+      font-family: system-ui, sans-serif;
+    }
+    header {
+      background-color: #db2777;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    main {
+      padding: 1rem;
+    }
+    article {
+      background-color: white;
+      border-radius: 0.75rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.875rem;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .text-sm {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+    footer {
+      background-color: #1f2937;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noticias de Farándula</h1>
+    <p class="text-sm">Lo último del mundo del espectáculo</p>
+  </header>
+
+  <main>
+    <!-- Ejemplo de noticia -->
+    <article>
+      <h2>Famosa actriz anuncia su retiro</h2>
+      <p class="text-sm">Publicado el 6 de junio de 2025</p>
+      <p class="mt-2">La reconocida actriz reveló hoy que dejará los escenarios para dedicarse a su familia. Sus seguidores están conmovidos con la noticia.</p>
+    </article>
+
+    <!-- Se pueden agregar más noticias similares aquí -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Noticias de Farándula. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
