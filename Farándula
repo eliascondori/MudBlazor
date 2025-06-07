@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farándula News</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #d63384;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .noticia {
+      background-color: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .noticia img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .noticia h2 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #d63384;
+    }
+
+    .noticia p {
+      margin-top: 8px;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background-color: #66003d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Farándula News</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Celebridades</a></li>
+        <li><a href="#">Tendencias</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Celebridad 1" />
+      <h2>Actriz revela secreto de su nuevo proyecto</h2>
+      <p>Durante una entrevista exclusiva, la actriz compartió detalles sorprendentes de su próximo papel en cine.</p>
+    </section>
+
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Celebridad 2" />
+      <h2>Escándalo en la alfombra roja</h2>
+      <p>Una figura del espectáculo acaparó todas las miradas con un atuendo inesperado en los premios de la música.</p>
+    </section>
+
+    <section class="noticia">
+      <img src="https://via.placeholder.com/300x180" alt="Celebridad 3" />
+      <h2>Influencer lanza línea de cosméticos</h2>
+      <p>La influencer más seguida del año ahora incursiona en el mundo de la belleza con su nueva marca.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Farándula News. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
