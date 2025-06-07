@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias de Economía</title>
+  <style>
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+      font-family: Georgia, serif;
+      margin: 0;
+    }
+    header {
+      background-color: #065f46;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #047857;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    article {
+      background-color: white;
+      padding: 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+    article h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    .fecha {
+      color: #6b7280;
+      font-size: 0.875rem;
+    }
+    footer {
+      background-color: #065f46;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noticias de Economía</h1>
+    <p>Actualizaciones del mundo financiero y económico</p>
+  </header>
+  <nav>
+    <a href="#">Mercados</a>
+    <a href="#">Empresas</a>
+    <a href="#">Política Económica</a>
+    <a href="#">Internacional</a>
+  </nav>
+  <main>
+    <article>
+      <h2>La bolsa sube tras anuncios de la Reserva Federal</h2>
+      <p class="fecha">Publicado el 6 de junio de 2025</p>
+      <p>Los mercados reaccionaron positivamente luego de que la Reserva Federal confirmara que mantendrá las tasas de interés sin cambios durante los próximos meses.</p>
+    </article>
+    <article>
+      <h2>Empresas tecnológicas lideran el crecimiento trimestral</h2>
+      <p class="fecha">Publicado el 5 de junio de 2025</p>
+      <p>Gigantes del sector tecnológico han reportado ganancias récord, impulsando la confianza de los inversores en el sector.</p>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025 Noticias de Economía. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
