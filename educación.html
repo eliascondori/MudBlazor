@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Educación Abierta</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #006699;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .curso {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .curso img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #003d66;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Educación Abierta</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Docentes</a></li>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="curso">
+      <img src="https://via.placeholder.com/300x180" alt="Curso de Matemáticas" />
+      <h2>Curso de Matemáticas</h2>
+      <p>Aprende álgebra, geometría y cálculo de forma interactiva y práctica.</p>
+    </section>
+
+    <section class="curso">
+      <img src="https://via.placeholder.com/300x180" alt="Curso de Historia" />
+      <h2>Curso de Historia</h2>
+      <p>Explora las civilizaciones antiguas y los eventos clave de la humanidad.</p>
+    </section>
+
+    <section class="curso">
+      <img src="https://via.placeholder.com/300x180" alt="Curso de Programación" />
+      <h2>Curso de Programación</h2>
+      <p>Iníciate en el mundo del código con HTML, CSS y JavaScript.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Educación Abierta. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
